@@ -1,10 +1,10 @@
-### Introduction to Linux and Bash ###
+# Introduction to Linux and Bash #
 
-# Authors #
+### Authors ###
 
 * Marilyn Pirello
 * Marco Maza
 
-# Resources #
+### Resources ###
 
 * Reveal.js
