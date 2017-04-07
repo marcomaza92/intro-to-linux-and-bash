@@ -25,7 +25,7 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>"Ñoños, barbudos y con lentes"</h1>
+					<h1>"Barbas, papas fritas y anteojos"</h1>
 					<small><em>a.k.a Software Libre, Linux & Bash 101</em></small>
 					<p>by Marilyn & Marco</p>
 				</section>
@@ -53,7 +53,7 @@
 					<small><em>(y porque se nos acaba el tiempo)</em></small>
 					<h2>Comenzamos!</h2>
 					<p><small>Esperamos que les guste!</small></p>
-					<img width="20%" height="20%" src="media/shrek.jpg" alt="Shrek Image"/>
+					<img class="fragment" width="20%" height="20%" src="media/shrek.jpg" alt="Shrek Image"/>
 				</section>
 				<section>
 					<h3><em>"Ay hijo, creo que toqué algo"</em></h3>
@@ -63,11 +63,51 @@
 					</div>
 				</section>
 				<section>
-					<p>Rápidamente, Un <strong>shell</strong> es un motor que se encarga de ejecutar esas "letritas en blanco y negro", también llamadas <em>comandos</em></p>
-					<p>Existen varios tipos de shell. Nosotros vamos a ver <em>Bash</em> (<span style="color: red;">B</span>ourne <span style="color: red;">A</span>gain <span style="color: red;">Sh</span>ell)</p>
+					<section>
+						<h2>Shell y Terminal</h2>
+						<p>Rápidamente, Un <strong>shell</strong> es un programa que se encarga de ejecutar esas "letritas en blanco y negro", también llamadas <em>comandos</em></p>
+						<p>Existen varios tipos de shell. Nosotros vamos a ver <em>Bash</em> (<span style="color: red;">B</span>ourne <span style="color: red;">A</span>gain <span style="color: red;">Sh</span>ell)</p>
+					</section>
+					<section>
+						<p>Para ingresar a un shell, debemos abrir una <em>Terminal</em> o una <em>Consola</em>.</p>
+						<p>Dentro de la terminal va a aparecer algo así:</p>
+						<p><code class="hljs">marco@marco:/home/marco $</code></p>
+						<p>Ese <strong><code>$</code></strong> es solo para denotar la salida. No hay que agregarlo ya que se genera automaticamente</p>
+					</section>
 				</section>
 				<section>
-					
+					<h2>Jerarquía de Árbol</h2>
+					<p>Todo lo que hay en linux es un <em>archivo</em> y, como dice el título, está ordenado con una <strong>Jerarquía de Árbol</strong></p>
+					<p>A continuación, el árbol:</p>
+					<img width="30%" height="30%" src="media/tree.png" alt="tree" />
+				</section>
+				<section>
+					<section>
+						<h2>Comandos</h2><small>(empezamos con lo bueno)</small>
+						<p>Los comandos son pequeñas palabras, acrónimos, siglas o <em>cositas</em> que nos permiten comunicarnos con la shell a través de la terminal</p>
+						<p>Unos ejemplos a continuación:</p>
+						<p><code class="hljs">pwd</code></p>
+						<p><code class="hljs">ls -l</code></p>
+						<p><code class="hljs">touch archivo</code></p>
+					</section>
+					<section>
+						<p><strong>Una aclaración importante:</strong> no vamos a mostrar toda la salida. Solo a partir del <code>$</code> para evitar confusiones</p>
+						<p>Es decir, en vez de ver esto:</p>
+						<p><code class="hljs">marco@marco:/home/marco $ pwd</code></p>
+						<p>Vamos a ver lo siguiente:</p>
+						<p><code class="hljs">$ pwd</code></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>pwd</h2>
+						<p><span style="color: red;">P</span>rint <span style="color: red;">W</span>orking <span style="color: red;">D</span>irectory. Muestra la carpeta en la que estamos actualmente (o sea, donde estamos "parados" en el sistema)</p>
+						<p><code class="hljs">$ pwd</code></p>
+					</section>
+					<section>
+						<p>La salida de este comando sería la siguiente (siguiendo un caso ejemplo):</p>
+						<p><code class="hljs">$ /home/marco</code></p>
+					</section>
 				</section>
 			</div>
 		</div>
