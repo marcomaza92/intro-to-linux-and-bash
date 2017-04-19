@@ -25,8 +25,8 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h1>"Barbas, papas fritas y anteojos"</h1>
-					<small><em>a.k.a Software Libre, Linux & Bash 101</em></small>
+					<h1>Introducción al lado libre</h1>
+					<small><em>Sobre Linux, Bash y sus beneficios y poderes</em></small>
 					<p>by Marilyn & Marco</p>
 				</section>
 				<section>
@@ -34,14 +34,14 @@
 					<p>En esta ocasión vamos a estar hablando de:</p>
 					<div>
 						<ul>
-							<li><em>"Software Libre y Linux"</em></li>
-							<li><em>"Shell (Bash) y la Terminal"</em></li>
+							<li class="fragment"><em>"Software Libre y Linux"</em></li>
+							<li class="fragment"><em>"Shell (Bash) y la Terminal"</em></li>
 						</ul>
 					</div>
 				</section>
 				<section>
 					<p>Quizás ustedes digan <strong>"qué cosa?!"</strong> y pongan la siguiente cara:</p>
-					<img src="media/doc.jpg" alt="WTH Image"/>
+					<img class="fragment" src="media/doc.jpg" alt="WTH Image"/>
 				</section>
 				<section>
 					<p>Pero...</p>
@@ -50,23 +50,69 @@
 				</section>
 				<section>
 					<h3>Sin más preámbulos</h3>
-					<small><em>(y porque se nos acaba el tiempo)</em></small>
-					<h2>Comenzamos!</h2>
-					<p><small>Esperamos que les guste!</small></p>
-					<img class="fragment" width="20%" height="20%" src="media/shrek.jpg" alt="Shrek Image"/>
+					<small class="fragment"><em>(y porque se nos acaba el tiempo)</em></small>
+					<h2 class="fragment">Comenzamos!</h2>
+					<div class="fragment">
+						<p><small>Esperamos que les guste!</small></p>
+						<img width="20%" height="20%" src="media/shrek.jpg" alt="Shrek Image"/>
+					</div>
+				</section>
+				<section>
+					<h2>Bizcochuelos libres</h2>
+					<img class="fragment" src="media/freecake.png" alt="Cake Image"/>
+				</section>
+				<section>
+					<section>
+						<h2>Primer Libertad:</h2>
+						<p>Cualquier persona es libre de <strong>usar </strong>el bizcochuelo, para lo que <strong>quiera</strong>.</p>
+					</section>
+					<section>
+						<h2>Libertad 0:</h2>
+						<p>Cualquier persona es libre de <strong>ejecutar</strong> el programa con <strong>cualquier propósito</strong>.</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Segunda Libertad:</h2>
+						<p>Cualquier persona es libre de conocer cómo está hecho el bizcochuelo, <strong>aprender </strong>a hacerlo y <strong>personalizarlo </strong>a gusto.</p>
+					</section>
+					<section>
+						<h2>Libertad 1:</h2>
+						<p>Cualquier persona es libre de <strong>estudiar</strong> cómo funciona el programa y <strong>adaptarlo</strong> a sus necesidades. Es necesario que el código del programa esté <strong>liberado</strong> para que cualquier lo pueda leer y modificar.</strong>.</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Tercera Libertad:</h2>
+						<p>Cualquier persona es libre de <strong>usar </strong>el bizcochuelo, para lo que <strong>quiera</strong>.</p>
+					</section>
+					<section>
+						<h2>Libertad 2:</h2>
+						<p>Cualquier persona es libre de <strong>ejecutar</strong> el programa con <strong>cualquier propósito</strong>.</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Cuarta Libertad:</h2>
+						<p>Cualquier persona es libre de <strong>usar </strong>el bizcochuelo, para lo que <strong>quiera</strong>.</p>
+					</section>
+					<section>
+						<h2>Libertad 3:</h2>
+						<p>Cualquier persona es libre de <strong>ejecutar</strong> el programa con <strong>cualquier propósito</strong>.</p>
+					</section>
 				</section>
 				<section>
 					<h3><em>"Ay hijo, creo que toqué algo"</em></h3>
 					<small>"y apareció esta ventana negra con letras blancas"</small>
 					<div class="">
-						<img src="media/bash.png" alt="Terminal Bash" />
+						<img src="media/bash.png" alt="Terminal Image" />
 					</div>
 				</section>
 				<section>
 					<section>
 						<h2>Shell y Terminal</h2>
 						<p>Rápidamente, Un <strong>shell</strong> es un programa que se encarga de ejecutar esas "letritas en blanco y negro", también llamadas <em>comandos</em></p>
-						<p>Existen varios tipos de shell. Nosotros vamos a ver <em>Bash</em> (<span style="color: red;">B</span>ourne <span style="color: red;">A</span>gain <span style="color: red;">Sh</span>ell)</p>
+						<p>Existen varios tipos de shell. Nosotros vamos a ver <em>Bash</em> (<span style="color: #D00;">B</span>ourne <span style="color: #D00;">A</span>gain <span style="color: #D00;">Sh</span>ell)</p>
 					</section>
 					<section>
 						<p>Para ingresar a un shell, debemos abrir una <em>Terminal</em> o una <em>Consola</em>.</p>
@@ -79,11 +125,11 @@
 					<h2>Jerarquía de Árbol</h2>
 					<p>Todo lo que hay en linux es un <em>archivo</em> y, como dice el título, está ordenado con una <strong>Jerarquía de Árbol</strong></p>
 					<p>A continuación, el árbol:</p>
-					<img width="30%" height="30%" src="media/tree.png" alt="tree" />
+					<img width="30%" height="30%" src="media/tree.png" alt="Tree Image" />
 				</section>
 				<section>
 					<section>
-						<h2>Comandos</h2><small>(empezamos con lo bueno)</small>
+						<h2>Comandos</h2>
 						<p>Los comandos son pequeñas palabras, acrónimos, siglas o <em>cositas</em> que nos permiten comunicarnos con la shell a través de la terminal</p>
 						<p>Unos ejemplos a continuación:</p>
 						<p><code class="hljs">pwd</code></p>
@@ -101,13 +147,401 @@
 				<section>
 					<section>
 						<h2>pwd</h2>
-						<p><span style="color: red;">P</span>rint <span style="color: red;">W</span>orking <span style="color: red;">D</span>irectory. Muestra la carpeta en la que estamos actualmente (o sea, donde estamos "parados" en el sistema)</p>
+						<p><span style="color: #D00;">P</span>rint <span style="color: #D00;">W</span>orking <span style="color: #D00;">D</span>irectory. Muestra la carpeta en la que estamos actualmente (o sea, donde estamos "parados" en el sistema)</p>
 						<p><code class="hljs">$ pwd</code></p>
 					</section>
 					<section>
 						<p>La salida de este comando sería la siguiente (siguiendo un caso ejemplo):</p>
 						<p><code class="hljs">$ /home/marco</code></p>
 					</section>
+				</section>
+				<section>
+					<section>
+						<h2>cd</h2>
+						<p><span style="color: #D00;">C</span>hange <span style="color: #D00;">D</span>irectory. Nos permite movernos entre directorios <em>(carpetas)</em></p>
+						<p><code class="hljs">$ cd /home/marco</code></p>
+					</section>
+					<section>
+						<p>La salida de este comando (en el caso que la ruta "/home/marco" existiera) sería la siguiente:</p>
+						<p><code class="hljs">marco@marco:<span style="color: #D00;">/home</span> $ cd /home/marco</code></p>
+						<p><code class="hljs">marco@marco:<span style="color: #D00;">/home/marco/</span> $ </code></p>
+					</section>
+					<section>
+						<p>En la ejecución anterior, utilizamos una <strong>ruta absoluta</strong> (siempre empieza con <span style="color: #D00;">/</span>)</p>
+						<p>También podemos usar <strong>rutas relativas</strong>. Usemos el mismo ejemplo:</p>
+						<p><code class="hljs">marco@marco:<span style="color: #D00;">/home</span> $ <span style="color: yellow;">cd marco</span></code></p>
+						<p><code class="hljs">marco@marco:<span style="color: #D00;">/home/marco/</span> $ </code></p>
+					</section>
+					<section>
+						<p>También hay <em>atajos</em> para hacerlos la vida más fácil</p>
+						<p>Nota: siempre nos guiamos con "el directorio en el que estamos actualmente"</p>
+						<ul>
+							<li><span style="color: #D00;">cd .</span> (Vas al directorio en el que estas actualmente) </li>
+							<li><span style="color: #D00;">cd ..</span> (Vas al directorio <strong>por encima</strong>)</li>
+							<li><span style="color: #D00;">cd ~</span> (Vas al "directorio inicio")</li>
+							<li><span style="color: #D00;">cd -</span> (Vas al directorio que visitaste <strong>justo antes</strong>)</li>
+						</ul>
+					</section>
+					<section>
+						<p>Ejemplos:</p>
+						<p><code class="hljs">$ cd .</code></p>
+						<p><code class="hljs">$ cd ..</code></p>
+						<p><code class="hljs">$ cd ~</code></p>
+						<p><code class="hljs">$ cd -</code></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>ls</h2>
+						<p><span style="color: #D00;">L</span>i<span style="color: #D00;">s</span>t. Permite listar los archivos presentes en donde estamos parados.</p>
+						<p><code class="hljs">$ ls</code></p>
+					</section>
+					<section>
+						<p>Para nuestra suerte, además de atajos, también tenemos <em>parámetros</em>!. Algunos son:</p>
+						<ul>
+							<li><span style="color: #D00;">ls -a</span> (Lista todos los archivos, incluso los "ocultos")</li>
+							<li><span style="color: #D00;">ls -r</span> (Lista los archivos, pero en order alfabético inverso)</li>
+							<li><span style="color: #D00;">ls -l</span> (Lista los archivos de manera detallada)</li>
+							<li><span style="color: #D00;">ls -R</span> (Lista los archivo no solo de la carpeta actual, sino de todas las subcarpetas)</li>
+						</ul>
+					</section>
+					<section>
+						<p>Ejemplos:</p>
+						<p><code class="hljs">$ ls -a</code></p>
+						<p><code class="hljs">$ ls -r</code></p>
+						<p><code class="hljs">$ ls -l</code></p>
+						<p><code class="hljs">$ ls -R</code></p>
+					</section>
+					<section>
+						<p>También podemos mezclar los parametros:</p>
+						<p><code class="hljs">$ ls -al</code></p>
+						<p>O cambiar el orden:</p>
+						<p><code class="hljs">$ ls -la</code></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>touch</h2>
+						<p>Nos permite crear un archivo vacio</p>
+						<p>También nos permite actualizar la fecha del archivo</p>
+						<p><code class="hljs">$ touch miarchivosupercopado</code></p>
+					</section>
+					<section>
+						<p>Si ejecutamos nuevamente el comando en "miarchivosupercopado", nos actualizará la fecha del mismo</p>
+						<p>Para ver esto, podemos hacer un ls -l para ver la fecha del archivo "miarchivosupercopado" <strong>antes</strong> de ejecutar el comando touch nuevamente</p>
+						<p>Luego ejecutamos el comando touch</p>
+						<p>Finalmente hacemos un ls -l nuevamente para ver como cambió la fecha</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>file</h2>
+						<p>Este comando nos permite saber con seguridad de que <em>tipo</em> es el archivo</p>
+						<p>Por qué decimos <strong>con seguridad</strong>?. Porque en Linux, un archivo llamado "banana.gif" no necesariamente es un GIF</p>
+					</section>
+					<section>
+						<p>Por ejemplo:</p>
+						<p><code class="hljs">$ file banana.gif</code></p>
+						<p>Nos va a decir con seguridad de que tipo de archivo estamos hablando</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>cat</h2>
+						<p>Con<span style="color: #D00;">cat</span>enate. Permite concatenar (unir) y mostrar el contenido de un archivo</p>
+					</section>
+					<section>
+						<p>Por ejemplo, para mostrar el contenido hacemos:</p>
+						<p><code class="hljs">$ cat archivo1</code></p>
+						<p>Para concatenar dos archivos (y mostrar su contenido concatenado) hacemos:</p>
+						<p><code class="hljs">$ cat archivo1 archivo2</code></p>
+					</section>
+					<section>
+						<p>Nota: para mantener su salud mental al máximo, no use este comando para archivos más grandes que una casa. Su computadora podría <strong>explotar</strong></p>
+						<p class="fragment">Igual no desespere, el siguiente comando es su solución para estos archivos más grandes que el <em>Titanic</em></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>less</h2>
+						<p>Este comando nos permite mostrar el contenido de los archivos "página por página"</p>
+					</section>
+					<section>
+						<p>Por ejemplo:</p>
+						<p><code class="hljs">$ less archivo</code></p>
+					</section>
+					<section>
+						<p>Con estas teclas podremos navegar cuando estamos dentro del archivo en <em>modo less</em></p>
+						<ul>
+							<li><span style="color: #D00;">q</span> (Salir de less y volver al shell)</li>
+							<li><span style="color: #D00;">repag, avpag, flechas</span> (Navegar por el archivo)</li>
+							<li><span style="color: #D00;">g</span> (Va al principio del archivo)</li>
+							<li><span style="color: #D00;">G</span> (Va al final del archivo)</li>
+							<li><span style="color: #D00;">/hola</span> (Busca la palabra "hola" dentro del documento)</li>
+							<li><span style="color: #D00;">h</span> (Muestra la ayuda disponible sobre el uso de less)</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>history</h2>
+						<p>Con este comando podemos ver el historial de comandos que tipeamos anteriormente</p>
+						<p><code class="hljs">$ history</code></p>
+					</section>
+					<section>
+						<p>Tips:</p>
+						<ul>
+							<li>Si apretamos <strong>flecha arriba</strong>, nos aparecerá el último comando ejecutado</li>
+							<li>Si tipeamos <strong>!!</strong>, ejecutamos el último comando ejecutado</li>
+							<li>Si tipeamos un comando largo, podemos tipear la primer parte, luego apretar <strong>tab</strong> y la terminal sugerirá opciones para completar ese comando</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li>Si apretamos <strong>ctrl+R</strong>, entramos en modo de <em>busqueda inversa</em></li>
+							<ul>
+								<li>Empezamos a tipear partes del comando y la terminal nos va mostrando sugerencias</li>
+								<li>Con ctrl+R podemos navegar por esas sugerencias</li>
+								<li>Una vez que encontramos el comando buscado, apretamos enter para ejecutarlo</li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<p>Con el comando <strong>clear</strong>, limpiamos nuestra pantalla</p>
+						<p><code class="hljs">$ clear</code></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>cp</h2>
+						<p><span style="color: #D00;">c</span>o<span style="color: #D00;">p</span>y. Permite copiar y pegar archivos</p>
+					</section>
+					<section>
+						<p>Por ejemplo:</p>
+						<p><code class="hljs">$ cp archivo /home/marco/Documentos</code></p>
+						<p>Primero ponemos el comando, luego el archivo a copiar y finalmente el lugar a pegar dicho archivo</p>
+					</section>
+					<section>
+						<p>Como siempre hay algo bueno, en este caos también lo hay. Vamos a ver un poco de <em>comodines</em></p>
+						<ul>
+							<li><span style="color: #D00;">*</span> (Representa cualquier caracter o conjunto de caracteres)</li>
+							<li><span style="color: #D00;">?</span> (Representa un solo caracter)</li>
+							<li><span style="color: #D00;">[]</span> (Representa cualquier caracter entre los corchetes)</li>
+						</ul>
+					</section>
+					<section>
+						<p>Por ejemplo:</p>
+						<p><code class="hljs">$ cp *.jpg /home/marco/Imagenes</code></p>
+						<p><code class="hljs">$ cp vacas???.jpg /home/marco/Imagenes</code></p>
+						<p><code class="hljs">$ cp [0-9][0-9]fotos.jpg /home/marco/Imagenes</code></p>
+					</section>
+					<section>
+						<p>Ejercicio:</p>
+						<p>Hagamos un cp en una carpeta que tenga un par de archivos dentro. Algo así:</p>
+						<p><code class="hljs">$ cp libros/ /home/marco/Documentos</code></p>
+					</section>
+					<section>
+						<p>No funcionó, verdad?</p>
+						<p>Lo que pasa es que el comando cp solamente copia <em>de a un archivo</em></p>
+						<p class="fragment">Por suerte, tenemos a nuestros amigos <em>parámetros</em> para salvarnos una vez más</p>
+					</section>
+					<section>
+						<ul>
+							<li><span style="color: #D00;">-r</span> (Copia recursivamente carpetas y archivos)</li>
+							<li><span style="color: #D00;">-i</span> (Nos consulta si deseamos sobreescribir o no el archivo)</li>
+						</ul>
+					</section>
+					<section>
+						<p>Por ejemplo:</p>
+						<p><code class="hljs">$ cp -i *.jpg /home/marco/Imagenes</code></p>
+						<p><code class="hljs">$ cp -r florida/ /home/marco/Imagenes</code></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>mv</h2>
+						<p><span style="color: #D00;">m</span>o<span style="color: #D00;">v</span>e. Permite mover y renombrar archivos</p>
+					</section>
+					<section>
+						<p>Si queremos renombrar:</p>
+						<p><code class="hljs">$ mv archivoviejo archivonuevo</code></p>
+						<p>Podemos renombrar carpetas también</p>
+						<p><code class="hljs">$ mv carpetavieja carpetanueva</code></p>
+						<p>Si queremos mover:</p>
+						<p><code class="hljs">$ mv archivo /home/marco/Documentos</code></p>
+					</section>
+					<section>
+						<p>Si queremos mover más de un archivo</p>
+						<p><code class="hljs">$ mv doc1 doc2 /home/marco/Documentos</code></p>
+						<p>También, al igual que con <em>cp</em>, podemos usar parámetros</p>
+						<p><code class="hljs">$ mv -i archivo /home/marco/Documentos</code></p>
+						<p>Incluso podemos hacer respaldos de los archivos</p>
+						<p><code class="hljs">$ mv -b archivo /home/marco/Documentos</code></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>mkdir</h2>
+						<p><span style="color: #D00;">m</span>a<span style="color: #D00;">k</span>e <span style="color: #D00;">dir</span>ectory. Permite crear directorios</p>
+					</section>
+					<section>
+						<p>Por ejemplo</p>
+						<p><code class="hljs">$ mkdir directorio</code></p>
+						<p>Para crear múltiples directorio</p>
+						<p><code class="hljs">$ mkdir directorio1 directorio2</code></p>
+					</section>
+					<section>
+						<p>Pero cuidado...</p>
+						<p class="fragment">Si queremos crear un directorio dentro de otro, debemos usar un parámetro</p>
+						<p class="fragment"><span style="color: #D00;">-p</span> (Parent (padre en ingles), nos permitirá hacer esto)</p>
+						<p class="fragment"><code class="hljs">$ mkdir -p directorio/subdirectorio</code></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>rm</h2>
+						<p><span style="color: #D00;">r</span>e<span style="color: #D00;">m</span>ove. Permite eliminar archivos <strong>permanentemente</strong></p>
+					</section>
+					<section>
+						<p class="fragment">Este debe ser uno de los comandos más peligrosos (más malo que el cuco)</p>
+						<p class="fragment">Cuando ejecutamos este comando, estamos borrando el archivo <strong>para siempre y sin vuelta atrás</strong></p>
+						<p class="fragment">Por eso debemos actuar con mucho cuidado a la hora de usarlo</p>
+					</section>
+					<section>
+						<p>Por ejemplo</p>
+						<p><code class="hljs">$ rm archivo</code></p>
+						<p class="fragment">Y <em>adiós para siempre</em>...</p>
+					</section>
+					<section>
+						<p>Pero no todo es tan fácil de eliminar</p>
+						<p class="fragment">Hay archivos que están protegidos contra escritura</p>
+						<p class="fragment">Pero como dice el dicho: <em>hecha la ley, hecha la trampa</em></p>
+						<p class="fragment">Existe un parámetro para borrar estos archivos</p>
+					</section>
+					<section>
+						<p><span style="color: #D00;">-f</span> (Fuerza la eliminación del archivo)</p>
+						<p><code class="hljs">$ rm -f archivo</code></p>
+						<p class="fragment">Y ahora si, <em>adiós para siempre</em>...</p>
+					</section>
+					<section>
+						<p>En cuanto a los directorios, debemos usar la variante <strong>rmdir</strong> o el parámetro <span style="color: #D00;">-r</span></p>
+						<p><code class="hljs">$ rm -r directorio</code></p>
+						<p><code class="hljs">$ rmdir directorio</code></p>
+						<p>Nota: con -r, eliminamos <strong>todo</strong> dentro de <em>directorio</em>. Con rmdir, eliminamos a <em>directorio</em>inclusive</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>find</h2>
+						<p>Nos permite encontrar archivos</p>
+					</section>
+					<section>
+						<p>Este comando es bastante sencillo de uilizar</p>
+						<p><code class="hljs">$ find /home/marco -name foto.jpg</code></p>
+						<p>Indicamos el <em>lugar</em> y el <em>nombre</em></p>
+					</section>
+					<section>
+						<p>También podemos pedirle que busque un <em>tipo</em> de archivo</p>
+						<p><code class="hljs">$ find /home -type d -name midirectorio</code></p>
+						<p><em>d</em> es para buscar <em>directorios</em></p>
+					</section>
+					<section>
+						<p>Lo bueno de este comando es que automáticamente realiza una búsqueda <strong>recursiva</strong></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>help</h2>
+						<p>Nos muestra ayuda e información sobre algún comando</p>
+					</section>
+					<section>
+						<p>Si alguna vez estamos en duda o queremos explorar más, este comando nos ayudará</p>
+						<p><code class="hljs">$ help echo</code></p>
+						<p>Esto nos mostrará información sobre el comando <em>echo</em></p>
+					</section>
+					<section>
+						<p>En algunos casos podremos probar lo siguiente también</p>
+						<p><code class="hljs">$ mkdir --help</code></p>
+						<p><code class="hljs">$ cp -h</code></p>
+						<p>Pero no todos siguen este estandar</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>man</h2>
+						<p><span style="color: #D00;">man</span>ual. Nos permite ver aún más información sobre un comando</p>
+					</section>
+					<section>
+						<p>En realidad no es más inforamción, sino el famoso <em>manual</em> de uso de ese comando</p>
+						<p>Si hacemos</p>
+						<p><code class="hljs">$ man ls</code></p>
+						<p>Veremos el manual del comando <em>ls</em></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>whatis</h2>
+						<p>Nos permite conocernos mejor...</p>
+						<p class="fragment">Mentira. Este comando nos muestra una breve descripción del comando</p>
+					</section>
+					<section>
+						<p>Por ejemplo</p>
+						<p><code class="hljs">$ whatis cat</code></p>
+						<p>Esto nos brinda una breve descripción de qué es (y que hace) el comando <em>cat</em></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>alias</h2>
+						<p>Permite "guardar" comandos en variables</p>
+					</section>
+					<section>
+						<p>A veces tenemos que tipear un comando muy largo o muchas veces</p>
+						<p>Para esto tenemos los alias</p>
+						<p><code class="hljs">$ alias listar='ls -l'</code></p>
+						<p>Y listo, ahora solo tenemos que hacer lo siguiente</p>
+						<p><code class="hljs">$ listar</code></p>
+						<p>Y nos va a ejecutar el comando "ls -l"</p>
+					</section>
+					<section>
+						<p>Tengamos en cuenta que estos alias se van a borrar una vez que reiniciemos</p>
+						<p>Para guardarlos de manera permanente, debemos agregarlos en</p>
+						<p><code class="hljs">$ ~/.bashrc</code></p>
+					</section>
+					<section>
+						<p>Para eliminar un alias, hacemos lo siguiente</p>
+						<p><code class="hljs">$ unalias listar</code></p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>exit</h2>
+						<p>Todo tiene un final, incluso esta maravilla de taller</p>
+					</section>
+					<section>
+						<p>Con este comando podremos salir de la terminal</p>
+						<p>Es tan simple como:</p>
+						<p><code class="hljs">$ exit</code></p>
+						<p>O en su otra variante</p>
+						<p><code class="hljs">$ logout</code></p>
+					</section>
+				</section>
+				<section>
+					<h2>Dudas y consultas</h2>
+					<p><strong>Marilyn Pirello</strong></p>
+					<ul>
+						<li><span style="color: #D00;">E-mail:</span> marilyn.pirello@gmail.com</li>
+						<li><span style="color: #D00;">Twitter:</span> @marilynpi</li>
+					</ul>
+					<p><strong>Marco Maza</strong></p>
+					<ul>
+						<li><span style="color: #D00;">E-mail:</span> marcoagustinmaza92@gmail.com</li>
+						<li><span style="color: #D00;">Twitter:</span> @marcoagusmaza92</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Gracias!</h2>
+					<img src="media/thanks.jpg" alt="Thanks Image" />
 				</section>
 			</div>
 		</div>
