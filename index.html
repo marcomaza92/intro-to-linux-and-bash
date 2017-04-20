@@ -26,15 +26,18 @@
 			<div class="slides">
 				<section>
 					<h1>Introducción al lado libre</h1>
-					<small><em>Sobre Linux, Bash y sus beneficios y poderes</em></small>
+					<p><em>Sobre Linux, Bash y sus beneficios y poderes</em></p>
+					<br/>
 					<p>by Marilyn & Marco</p>
 				</section>
 				<section>
-					<p>Hola a todos y gracias por venir!</p>
+					<h2>Hola Mundo!, eh digo... <br/>Hola a todos!</h2>
 					<p>En esta ocasión vamos a estar hablando de:</p>
 					<div>
 						<ul>
-							<li class="fragment"><em>"Software Libre y Linux"</em></li>
+							<li class="fragment"><em>"Introducción a GNU/Linux"</em></li>
+							<li class="fragment"><em>"Las 4 libertades del Software Libre"</em></li>
+							<li class="fragment"><em>"Funcionamiento de un GNU/Linux"</em></li>
 							<li class="fragment"><em>"Shell (Bash) y la Terminal"</em></li>
 						</ul>
 					</div>
@@ -49,17 +52,55 @@
 					<p class="fragment">Nos vamos a encargar de solucionar todas (o casi todas) las dudas que aparezcan</p>
 				</section>
 				<section>
-					<h3>Sin más preámbulos</h3>
+					<h2>Sin más preámbulos...</h2>
 					<small class="fragment"><em>(y porque se nos acaba el tiempo)</em></small>
 					<h2 class="fragment">Comenzamos!</h2>
+					<br/>
 					<div class="fragment">
 						<p><small>Esperamos que les guste!</small></p>
 						<img width="20%" height="20%" src="media/shrek.jpg" alt="Shrek Image"/>
 					</div>
 				</section>
 				<section>
+					<section>
+						<h2>Qué es GNU/Linux?</h2>
+						<p>Linux es un sistema operativo, una gran pieza de software que controla un computador. Es parecido a Microsoft Windows, pero <strong>completamente libre</strong>. El nombre correcto es GNU/Linux pero <em>"Linux"</em> se usa más.</p>
+					</section>
+					<section>
+						<h2>No está apoderado ni centralizado</h2>
+						<p>Linux no es el producto de una sola compañía, es el resultado de la contribución de un gran número de compañías y grupos de personas. De hecho, el sistema GNU/Linux es un componente central, el cual se transforma en muchos productos diferentes: las llamadas <strong>distribuciones</strong>.</p>
+					</section>
+					<section>
+						<h2>Gratis <strong>no es igual a</strong>libre</h2>
+						<p>Cuando obtiene una distribución de GNU/Linux, también obtiene la libertad para estudiarla, copiarla, cambiarla, y redistribuirla. Eso es lo que la hace <strong>realmente libre</strong>.</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Un poco de historia</h2>
+						<p>El proyecto GNU, iniciado en 1983 por Richard Stallman, tiene el objetivo de crear un "sistema de software compatible con Unix" compuesto enteramente de software libre. El trabajo comenzó en el año 1984.13 Más tarde, en 1985, Stallman comenzó la Free Software Foundation y escribió la Licencia Pública General de GNU (GNU GPL) en 1989.</p>
+					</section>
+					<section>
+						<h2>Richard Stallman</h2>
+						<p><small><em>El Ricky de la gente</em></small></p>
+						<img src="media/stallman.jpg" alt="Stallman Image"/>
+					</section>
+					<section>
+						<p>En 1991, mientras asistía a la Universidad de Helsinki, Linus Torvalds se interesó por los sistemas operativos18 y frustrado por la concesión de licencias que utilizaba MINIX, que en ese momento se limitaba a uso educativo.18 Él comenzó a trabajar en su propio núcleo del sistema operativo, lo que eventualmente se convirtió en el núcleo de Linux.</p>
+					</section>
+					<section>
+						<h2>Linus Torvalds</h2>
+						<p><small><em>Vieron que parecido a "Linux" el nombre?</em></small></p>
+						<img src="media/linus.jpeg" alt="Stallman Image"/>
+					</section>
+				</section>
+				<section>
+					<h2>Actualidad</h2>
+					<p>Lorem ipsum (?)</p>
+				</section>
+				<section>
 					<h2>Bizcochuelos libres</h2>
-					<img class="fragment" src="media/freecake.png" alt="Cake Image"/>
+					<img class="fragment" src="media/freecake.png" alt="Cake Image" style="border: 0; background: transparent; box-shadow: 0 0 0;"/>
 				</section>
 				<section>
 					<section>
@@ -67,8 +108,16 @@
 						<p>Cualquier persona es libre de <strong>usar </strong>el bizcochuelo, para lo que <strong>quiera</strong>.</p>
 					</section>
 					<section>
+						<img class="fragment" width="40%" height="40%" src="media/firstfreedom1.jpg" alt="First Freedom Image"/>
+						<img class="fragment" width="40%" height="40%" src="media/firstfreedom2.jpg" alt="First Freedom Image"/>
+					</section>
+					<section>
 						<h2>Libertad 0:</h2>
 						<p>Cualquier persona es libre de <strong>ejecutar</strong> el programa con <strong>cualquier propósito</strong>.</p>
+					</section>
+					<section>
+						<img class="fragment" width="50%" height="50%" src="media/firstfreedom3.jpg" alt="First Freedom Image"/>
+						<img class="fragment" width="43%" height="43%" src="media/firstfreedom4.png" alt="First Freedom Image"/>
 					</section>
 				</section>
 				<section>
@@ -77,29 +126,112 @@
 						<p>Cualquier persona es libre de conocer cómo está hecho el bizcochuelo, <strong>aprender </strong>a hacerlo y <strong>personalizarlo </strong>a gusto.</p>
 					</section>
 					<section>
+						<h3>Bizcochuelo</h3>
+						<p><small><strong>Huevos, harina, manteca, leche y azucar</strong></small></p>
+						<img class="fragment" width="30%" height="30%" src="media/secondfreedom1.jpg" alt="Second Freedom Image"/>
+						<img class="fragment" width="30%" height="30%" src="media/secondfreedom2.jpg" alt="Second Freedom Image"/>
+						<img class="fragment" width="30%" height="30%" src="media/secondfreedom6.jpg" alt="Second Freedom Image"/>
+					</section>
+					<section>
+						<p>Pero que pasa si agregamos dulce de leche en el medio?...</p>
+						<img width="60%" height="60%" src="media/secondfreedom7.jpg" alt="Second Freedom Image"/>
+					</section>
+					<section>
+						<p>Tenemos el <em>bizcochuelo con dulce de leche</em></p>
+						<img src="media/secondfreedom5.jpg" alt="Second Freedom Image"/>
+					</section>
+					<section>
+						<h3>Bizcochuelo con dulce de leche</h3>
+						<p><small><strong>Huevos, harina, manteca, leche, azucar <span style="color: #D00;">y dulce de leche</span></strong></small></p>
+						<img class="fragment" width="20%" height="20%" src="media/secondfreedom1.jpg" alt="Second Freedom Image"/>
+						<img class="fragment" width="20%" height="20%" src="media/secondfreedom2.jpg" alt="Second Freedom Image"/>
+						<img class="fragment" width="20%" height="20%" src="media/secondfreedom7.jpg" alt="Second Freedom Image"/>
+						<img class="fragment" width="20%" height="20%" src="media/secondfreedom5.jpg" alt="Second Freedom Image"/>
+					</section>
+					<section>
 						<h2>Libertad 1:</h2>
-						<p>Cualquier persona es libre de <strong>estudiar</strong> cómo funciona el programa y <strong>adaptarlo</strong> a sus necesidades. Es necesario que el código del programa esté <strong>liberado</strong> para que cualquier lo pueda leer y modificar.</strong>.</p>
+						<p>Cualquier persona es libre de <strong>estudiar</strong> cómo funciona el programa y <strong>adaptarlo</strong> a sus necesidades. Es necesario que el código del programa esté <strong>liberado</strong> para que cualquier lo pueda leer y modificar.</p>
 					</section>
 				</section>
 				<section>
 					<section>
 						<h2>Tercera Libertad:</h2>
-						<p>Cualquier persona es libre de <strong>usar </strong>el bizcochuelo, para lo que <strong>quiera</strong>.</p>
+						<p>Cualquier persona es libre de <strong>convidar</strong> el bizcochuelo, a quién <strong>quiera</strong>.</p>
+					</section>
+					<section>
+						<img width="40%" height="40%" src="media/thirdfreedom1.jpg" alt="Third Freedom Image"/>
+						<img width="40%" height="40%" src="media/thirdfreedom2.gif" alt="Third Freedom Image"/>
 					</section>
 					<section>
 						<h2>Libertad 2:</h2>
-						<p>Cualquier persona es libre de <strong>ejecutar</strong> el programa con <strong>cualquier propósito</strong>.</p>
+						<p>Cualquier persona es libre de <strong>distribuir</strong> <strong>copias del programa </strong>que ayuden a otros usuarios.</p>
+					</section>
+					<section>
+						<img width="30%" height="30%" src="media/thirdfreedom4.png" alt="Third Freedom Image"/>
 					</section>
 				</section>
 				<section>
 					<section>
 						<h2>Cuarta Libertad:</h2>
-						<p>Cualquier persona es libre de <strong>usar </strong>el bizcochuelo, para lo que <strong>quiera</strong>.</p>
+						<p>Cualquier persona es libre de <strong>mejorar</strong> el bizcochuelo, <strong>y convidar la nueva versión</strong>.</p>
+					</section>
+					<section>
+						<img width="30%" height="30%" src="media/forthfreedom1.jpg" alt="Forth Freedom Image"/>
+						<img width="53%" height="53%" src="media/thirdfreedom2.gif" alt="Forth Freedom Image"/>
 					</section>
 					<section>
 						<h2>Libertad 3:</h2>
-						<p>Cualquier persona es libre de <strong>ejecutar</strong> el programa con <strong>cualquier propósito</strong>.</p>
+						<p>Cualquier persona es libre de <strong>mejorar</strong> el programa y hacer <strong>públicas </strong>esas mejoras para que la comunidad se beneficie.</p>
 					</section>
+					<section>
+						<img width="40%" height="40%" src="media/thirdfreedom3.jpg" alt="Forth Freedom Image"/>
+						<img width="30%" height="30%" src="media/thirdfreedom4.png" alt="Forth Freedom Image"/>
+					</section>
+				</section>
+				<section>
+					<img src="media/4summary.png" alt="4 Summary Image" style="border: 0; background: transparent; box-shadow: 0 0 0;"/>
+				</section>
+				<section>
+					<h2>"Qué me instalaron en la compu?"</h2>
+					<p class="fragment">Muchos estarán medios asustados por lo que ven en sus pantallas...</p>
+					<p class="fragment">Pero no se preocupen que brevemente vamos a dar un paseo por Linux</p>
+				</section>
+				<section>
+					<h2>Escritorio</h2>
+					<p>Nada que envidiarle a nadie. Incluso es más lindo!</p>
+					<img width="40%" height="40%" src="media/desktop1.png" alt="Desktop Image"/>
+					<img width="40%" height="40%" src="media/desktop2.png" alt="Desktop Image"/>
+				</section>
+				<section>
+					<h2>Explorador de archivos</h2>
+					<p>Son todos iguales y encima, este funciona mejor</p>
+					<img width="40%" height="40%" src="media/filemanager1.png" alt="File Manager Image"/>
+					<img width="40%" height="40%" src="media/filemanager2.png" alt="File Manager Image"/>
+				</section>
+				<section>
+					<h2>Ofimática</h2>
+					<p>Acá también hay "word", "excel" y todo eso!</p>
+					<img width="40%" height="40%" src="media/writer.png" alt="Writer Image"/>
+					<img width="40%" height="40%" src="media/calc.jpg" alt="Calc Image"/>
+				</section>
+				<section>
+					<h2>Instalando programas</h2>
+					<p>Más seguro, más fácil, más rápido. Chupate esa mandarina!</p>
+					<img width="40%" height="40%" src="media/software1.png" alt="Software Center Image"/>
+					<img width="40%" height="40%" src="media/software2.png" alt="Apt-get Install Image"/>
+				</section>
+				<section>
+					<h2>Navegadores</h2>
+					<p>Firefox, Chrome, Chromium, Opera. La creme de la creme</p>
+					<img width="40%" height="40%" src="media/browser1.png" alt="Firefox Image"/>
+					<img width="40%" height="40%" src="media/browser2.png" alt="Chrome Image"/>
+				</section>
+				<section>
+					<h2>Miscelaneas</h2>
+					<p><small><em>(Amo esa palabra)</em></small></p>
+					<p>Música, Videos y mucho más!!!. <strong>Qué más queres?!</strong></p>
+					<img width="40%" height="40%" src="media/misc1.jpg" alt="Misc Image"/>
+					<img width="40%" height="40%" src="media/misc2.jpg" alt="Misc Image"/>
 				</section>
 				<section>
 					<h3><em>"Ay hijo, creo que toqué algo"</em></h3>
