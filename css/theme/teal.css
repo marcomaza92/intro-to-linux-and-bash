@@ -92,7 +92,10 @@ body {
 .reveal em {
   font-style: italic; }
 .reveal em {
-  color: #0F0;
+  color: purple;
+}
+.reveal code em {
+    color: #0F0;
 }
 .reveal ol,
 .reveal dl,
