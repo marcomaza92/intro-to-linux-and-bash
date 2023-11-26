@@ -2,8 +2,8 @@
 
 ### Authors ###
 
-* Marilyn Pirello
-* Marco Maza
+* Marilyn Pirello @marilynpi
+* Marco Maza @marcomaza92
 
 ### Resources ###
 
